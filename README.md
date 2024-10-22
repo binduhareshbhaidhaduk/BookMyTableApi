@@ -78,7 +78,7 @@ Before setting up this project, ensure you have the following installed on your 
    ```bash
     git clone https://github.com/binduhareshbhaidhaduk/BookMyTableApi.git
    
-2. Nevigation
+2. Navigation
 
   ```bash
     cd BOOKMYTABLE
