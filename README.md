@@ -76,7 +76,7 @@ Before setting up this project, ensure you have the following installed on your 
 1. Clone the repository:
 
    ```bash
-    git clone https://github.com/yourusername/restaurant-booking-api.git
+    git clone https://github.com/binduhareshbhaidhaduk/BookMyTableApi.git
    
 2. Nevigation
 
