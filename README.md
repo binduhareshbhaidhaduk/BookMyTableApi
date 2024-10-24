@@ -1,19 +1,33 @@
-🍽️ Restaurant Booking API
-    A RESTful API designed to manage restaurant customers, staff, bookings, orders, tables, menu items, ingredients, and types. The API enables you to handle day-to-day operations such as creating and managing bookings, staff roles, orders, menus, ingredients, and table assignments.
+# 🍽️ Restaurant Management System ERD
 
+## 📝 Project Description
+This project defines an ERD for a restaurant management system to organize staff, customers, tables, orders, and menu items, improving database efficiency and system functionality.
 
-✨ Features
+## 📊 Key Entities
+- **👨‍🍳 Staff**: Restaurant employees.
+- **📋 StaffRole**: Defines staff roles.
+- **👥 Customer**: Customers making bookings and orders.
+- **🍽️ Table**: Tables available for booking.
+- **📝 Booking**: Customer reservations.
+- **🛒 Order**: Orders placed by customers.
+- **🍔 Menu**: Available food and beverages.
+- **📦 OrderMenuItem**: Items in an order.
+- **🌿 Ingredient**: Ingredients for menu items.
+- **🥘 IngredientType**: Categories of ingredients.
 
-  👨‍🍳 Staff Management: Manage staff members and their roles in the restaurant.
-  🪑 Table Management: Keep track of table availability and assign tables to bookings.
-  📅 Booking System: Create and modify customer reservations (no cancellation).
-  🍽️ Order Management: Handle orders, assign staff to orders, and link them to tables.
-  🍕 Menu Management: Add, update, and delete menu items, including managing ingredients for each menu item.
-  
-🛠️ Technologies Used
+## 🔗 Relationships
+- **StaffRole** → **Staff**: One-to-Many
+- **Customer** → **Booking**, **Order**: One-to-Many
+- **Booking** → **Table**: One-to-One
+- **Order** → **OrderMenuItem**: One-to-Many
+- **MenuItem** ↔ **Ingredient**: Many-to-Many
 
-  Node.js (JavaScript runtime)
-  Express.js (Web framework for Node.js)
-  MongoDB (NoSQL database using Mongoose for data modeling)
-  Body-parser (For parsing incoming request bodies)
-  
+## 🛠️ Tools
+- **Design**: ERDPlus, Draw.io
+- **Technologies**: Data Modeling, Database Design
+
+## 📈 ERD Diagram
+![Screenshot 2024-10-19 191640](https://github.com/user-attachments/assets/e17148a0-ef97-4d7b-95c2-bdf32fd214a0)
+
+## 🚀 Outcome
+The ERD ensures a well-organized database structure, improving overall system performance for managing restaurant operations.
