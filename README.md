@@ -17,27 +17,3 @@
   MongoDB (NoSQL database using Mongoose for data modeling)
   Body-parser (For parsing incoming request bodies)
   
-🚀 Getting Started
-
-  ⚙️ Prerequisites
-    1.💻 Installation
-      Clone the repository:
-      ```bash
-          git clone https://github.com/binduhareshbhaidhaduk/BookMyTableApi.git
-      ```
-    2.Navigate into the project directory:
-      ```bash
-         cd BOOKMYTABLE
-      ```
-    3.Install the required dependencies:
-    ```bash
-        npm install
-    ```
-    
-🔐 Environment Variables
-      PORT=1312
-
-🏃‍♂️ Running the Application
-    ```bash
-      npm start
-    ```
